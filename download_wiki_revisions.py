@@ -29,9 +29,8 @@ def download_page_w_revisions(page_title: str) -> str:
         unit_scale=True,
         desc="Downloading revisions",
         leave=True
-        '''
-        Matteo's change 1
-        '''
+        # Matteo's change 1
+        
     )
     
     # Download with progress
