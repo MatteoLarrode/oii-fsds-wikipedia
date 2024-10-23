@@ -29,8 +29,6 @@ def download_page_w_revisions(page_title: str) -> str:
         unit_scale=True,
         desc="Downloading revisions",
         leave=True
-        # Matteo's change 1
-        
     )
     
     # Download with progress
@@ -213,4 +211,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     main(page=args.page, data_dir=args.data_dir, count_only=args.count_only)
 
-'''Matteo's change 2'''
+# Matteo's test change
